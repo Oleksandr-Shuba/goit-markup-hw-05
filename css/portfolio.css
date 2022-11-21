@@ -11,8 +11,6 @@
     display: flex;
     gap: 8px;
     justify-content: center;
-
-
 }
 
 
@@ -25,7 +23,6 @@
     letter-spacing: 0.03em;
     padding: 6px 22px;
     border-radius: 4px;
-
     color: var(--text-main-color);
 
 }
