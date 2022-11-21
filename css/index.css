@@ -26,9 +26,10 @@
     margin: 0px auto;
     display: block;
     padding: 10px 32px;
+    color: var(--white);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    transition: fill var(--trans-n-250), background-color var(--trans-n-250)
+    transition: color var(--trans-n-250), background-color var(--trans-n-250)
 
 
 }
