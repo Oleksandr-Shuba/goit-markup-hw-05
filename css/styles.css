@@ -344,10 +344,10 @@ a {
 
 
 
-/* --------------------МОДАЛЬНЕ ВІКНО--------------------- */
+/* ------------BACKDROP--------МОДАЛЬНЕ ВІКНО--------------------- */
 .backdrop {
     position: fixed;
-    background: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
     top: 0px;
@@ -374,8 +374,8 @@ a {
 
 .modal {
     width: 528px;
-    height: 581px;
-    background: #FFFFFF;
+    min-height: 581px;
+    background-color: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     position: absolute;
@@ -386,18 +386,23 @@ a {
 
 }
 
-.modal-close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 14px;
-}
+
 
 .close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
     width: 30px;
     height: 30px;
-    background: #FFFFFF;
+    background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+
 
 }
