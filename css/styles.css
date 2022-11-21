@@ -370,11 +370,6 @@ a {
 }
 
 
-.is-hidden .modal {
-    transform: translate(-50%, 0);
-    transition-duration: 1s;
-}
-
 .modal {
     width: 528px;
     min-height: 581px;
@@ -386,7 +381,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     transition-duration: 1s;
-
+    transition-timing-function: ease-in-out;
 }
 
 
