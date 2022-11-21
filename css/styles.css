@@ -401,5 +401,5 @@ a {
     justify-content: center;
     cursor: pointer;
     fill: #000000;
-    transition: fill var(--trans-n-250), background-color var(--trans-n-250)
+    transition: color var(--trans-n-250), background-color var(--trans-n-250)
 }
