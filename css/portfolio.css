@@ -68,6 +68,7 @@
     opacity: 0.5;
     transform: translateY(100%);
     transition: transform 250ms linear;
+    overflow: auto;
 
 }
 
